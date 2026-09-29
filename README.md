@@ -1,5 +1,7 @@
 # PR Media Pitch and Journalist Outreach Preparation with Email Awesome
 
+**Official Email Awesome agent skills** · Published and maintained by [EmailAwesome](https://github.com/EmailAwesome), the official Email Awesome GitHub organization. [Visit Email Awesome](https://www.emailawesome.com/).
+
 A media-fit matrix, verified contact ledger, pitch angles, factual claims checklist and drafts for approval. This Agent Skill helps **pr teams and agencies preparing a small, relevant media outreach** prepare an evidence-based result using Email Awesome for email address verification before first contact.
 
 

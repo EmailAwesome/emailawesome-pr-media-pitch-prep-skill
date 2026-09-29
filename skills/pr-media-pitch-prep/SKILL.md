@@ -2,6 +2,9 @@
 name: pr-media-pitch-prep
 description: "Prepare a relevant journalist or media pitch before outreach: match a supplied media list to a real story, verify authorized addresses with Email Awesome and draft tailored angles. Use for PR preparation, not mass pitching."
 license: MIT
+metadata:
+  author: EmailAwesome
+  repository: https://github.com/EmailAwesome/emailawesome-pr-media-pitch-prep-skill
 ---
 
 # PR Media Pitch and Journalist Outreach Preparation with Email Awesome
