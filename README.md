@@ -25,6 +25,16 @@ For an agent that supports installing skills: “Install `pr-media-pitch-prep` f
 
 The [skill instructions](skills/pr-media-pitch-prep/SKILL.md) are the canonical package. Installing them does not authenticate into the product or grant rights to third-party data.
 
+## Recommended product skill
+
+For full product operation, install the companion brand skill too:
+
+```bash
+npx skills add EmailAwesome/emailawesome-email-verification-agent-skills --skill emailawesome
+```
+
+The use-case skill defines the job and output; the brand skill helps configure and use the actual product.
+
 ## Access and review
 
 Use a list the user owns or may use; do not harvest journalist emails from protected pages or infer private contact details. Confirm each angle matches the journalist’s documented beat; avoid generic mass personalization. Honor embargoes, opt-outs and applicable privacy/direct-marketing rules. Do not disclose confidential press material to unapproved recipients or publish it in this repo.
