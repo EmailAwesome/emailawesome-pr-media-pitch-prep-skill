@@ -1,1 +1,1 @@
-media_contact_id,outlet,journalist,beat_evidence_url,story_angle,email_source,email,verification_status,embargo_rule,approval_state
+media_contact_id,outlet,journalist,beat_evidence_url,story_angle,email_source,email,verification_status,embargo_rule,approval_state,verified_at,suppression_state,embargo_timezone,claim_evidence

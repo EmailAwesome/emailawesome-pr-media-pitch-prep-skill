@@ -47,3 +47,9 @@ Before delivery: reconcile every input, distinguish observed facts from assumpti
 Address readiness and outreach permission are separate: a VALID address with an opt-out remains excluded. Keep source email and returned email, reconcile the actual export schema, and never assume the provider preserves arbitrary CSV columns. If IDs are dropped, use a documented job map or an unambiguous normalized-address join with a duplicate map; otherwise stop reconciliation. Do not infer permission from successful verification.
 
 For jurisdiction-specific outreach preparation, consult the current [FTC commercial email guidance](https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business) and [ICO B2B marketing guidance](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/business-to-business-marketing/) when applicable. Verify other recipient jurisdictions separately; these references are not universal legal clearance.
+
+## Decision fields
+
+Keep a dated verification and suppression state for each journalist. An embargo needs date, time and time zone; missing any component keeps the pitch on hold. A relevant beat alone does not validate an address or permit sending. Tie each factual claim to supplied evidence, omit unsupported impact metrics, and leave unrelated beats outside the pitch list.
+
+Preserve `verified_at`, `suppression_state`, `embargo_timezone`, `claim_evidence`.
